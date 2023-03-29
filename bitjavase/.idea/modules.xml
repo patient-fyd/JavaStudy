@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/bitjavase.iml" filepath="$PROJECT_DIR$/.idea/bitjavase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email/myemail1/myemail1.iml" filepath="$PROJECT_DIR$/email/myemail1/myemail1.iml" />
+    </modules>
+  </component>
+</project>
