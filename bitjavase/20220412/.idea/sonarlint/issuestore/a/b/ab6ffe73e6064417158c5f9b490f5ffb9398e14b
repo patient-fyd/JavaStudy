@@ -1,0 +1,11 @@
+
+\
+java:S1192/"FDefine a constant instead of duplicating this literal "cycle" 3 times.(ú‰Ü™
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×–Ùİ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ê†Úãÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ŸŠ½°úÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ğ›Şâıÿÿÿÿ
+F
+java:S1172P"+Remove this unused method parameter "args".(üÎÆıÿÿÿÿ
+F
+java:S1172Z"+Remove this unused method parameter "args".(À»Áùÿÿÿÿ

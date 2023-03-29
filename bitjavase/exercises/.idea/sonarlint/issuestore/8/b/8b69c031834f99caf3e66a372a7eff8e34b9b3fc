@@ -1,0 +1,26 @@
+
+w
+java:S1488["\Immediately return this expression instead of assigning it to the temporary variable "temp".(öğ»Òûÿÿÿÿ
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(®Ö±ùûÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "args".(êÒœƒûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÇúªÓşÿÿÿÿ
+A
+java:S1172$"+Remove this unused method parameter "args".(’Èî
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ÇúªÓşÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(Å‰Î¥
+A
+java:S11726"+Remove this unused method parameter "args".(Ú¼Øú
+A
+java:S1172G"+Remove this unused method parameter "args".(¸ó€Æ
+S	java:S106N"9Replace this use of System.out or System.err by a logger.(ÇúªÓşÿÿÿÿ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(È²Ÿ‘
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(”¤“ğûÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "args".(À»Áùÿÿÿÿ
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(ÇúªÓşÿÿÿÿ
+t
+java:S1128"YRemove this unused import 'com.sun.deploy.uitoolkit.impl.awt.AWTClientPrintHelper.print'.(®Ö±ùûÿÿÿÿ
+l
+java:S1128"QRemove this unused import 'jdk.nashorn.internal.objects.NativeFunction.function'.(ış¼¾úÿÿÿÿ

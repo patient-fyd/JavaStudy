@@ -1,0 +1,13 @@
+
+†
+java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(Í •ıÿÿÿÿ8¹‡ğ¢”0
+†
+java:S1319="dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(İ˜Á‡üÿÿÿÿ8º‡ğ¢”0
+T
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿ8äé©¢”0
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í •ıÿÿÿÿ8Äˆğ¢”0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(á©–³øÿÿÿÿ8æé©¢”0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÍËŞ€øÿÿÿÿ8çé©¢”0
+U	java:S106""9Replace this use of System.out or System.err by a logger.(·¢£¼8èé©¢”0
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(º°ƒËÿÿÿÿÿ8íé©¢”0
+o	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ˜Á‡üÿÿÿÿ8Íˆğ¢”0

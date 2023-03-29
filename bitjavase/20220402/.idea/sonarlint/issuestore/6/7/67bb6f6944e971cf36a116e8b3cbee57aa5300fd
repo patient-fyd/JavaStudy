@@ -1,0 +1,34 @@
+
+m
+java:S1104	"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾8Îñ©Æ‚0
+l
+java:S1104
+"OMake age a static final constant or non-public and provide accessors if needed.(×Áò¿8Ðñ©Æ‚0
+l
+java:S1104"PMake hair a static final constant or non-public and provide accessors if needed.(ú±ø8Óñ©Æ‚0
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÍÝø£ýÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.( ¼ääþÿÿÿÿ8ôñ©Æ‚0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(“ýÛÝ8ùñ©Æ‚0
+X	java:S125"<This block of commented-out lines of code should be removed.(òŠ—­8‚ò©Æ‚0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(È÷ýùÿÿÿÿ8„ò©Æ‚0
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(æ¡ÎÓûÿÿÿÿ8ˆò©Æ‚0
+T	java:S106."9Replace this use of System.out or System.err by a logger.(…ˆÔn8Œò©Æ‚0
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ÙëÄ·ùÿÿÿÿ8ò©Æ‚0
+ž
+java:S1186a"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯ÄÖü8‘ò©Æ‚0
+w
+java:S4144p"UUpdate this method so that its implementation is not identical to "main4" on line 90.(üÎÆýÿÿÿÿ8•ò©Æ‚0
+H
+java:S1172D"+Remove this unused method parameter "args".(¯ç¼§8ò©Æ‚0
+H
+java:S1172P"+Remove this unused method parameter "args".(’Èî8¡ò©Æ‚0
+H
+java:S1172Z"+Remove this unused method parameter "args".(Ú¼Øú8¥ò©Æ‚0
+]	java:S125f"<This block of commented-out lines of code should be removed.(ó¸Ëõýÿÿÿÿ8§ò©Æ‚0
+H
+java:S1172j"+Remove this unused method parameter "args".(¸ó€Æ8ªò©Æ‚0
+M
+java:S1172p"+Remove this unused method parameter "args".(üÎÆýÿÿÿÿ8­ò©Æ‚0
+]	java:S125q"<This block of commented-out lines of code should be removed.(Êö¿›þÿÿÿÿ8®ò©Æ‚0
+M
+java:S1172z"+Remove this unused method parameter "args".(À»Áùÿÿÿÿ8¯ò©Æ‚0

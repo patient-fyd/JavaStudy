@@ -1,0 +1,35 @@
+
+G
+java:S5411"*Use the primitive boolean expression here.(¾äÜÔ8•øÀŞ‹0
+G
+java:S54110"*Use the primitive boolean expression here.(Éçà£8•øÀŞ‹0
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8ò´Ş‹0
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(¢ääˆ8ò´Ş‹0
+j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²™€È8ò´Ş‹0
+G
+java:S1197("*Move the array designators [] to the type.(²™€È8ò´Ş‹0
+G
+java:S1197("*Move the array designators [] to the type.(²™€È8ò´Ş‹0
+j	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾³Æ8ÍùÀŞ‹0
+G
+java:S1197/"*Move the array designators [] to the type.(¾³Æ8˜ò´Ş‹0
+^
+java:S11260"AReplace this if-then-else statement by a single return statement.(Éçà£8˜ò´Ş‹0
+j	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ¦úØ8ò´Ş‹0
+o
+java:S37764"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(œ¦úØ8˜ò´Ş‹0
+G
+java:S11974"*Move the array designators [] to the type.(œ¦úØ8ÕùÀŞ‹0
+]
+java:S11265"AReplace this if-then-else statement by a single return statement.(”õ¾08ÕùÀŞ‹0
+o	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹áµ†úÿÿÿÿ8˜ò´Ş‹0
+Z	java:S106H"9Replace this use of System.out or System.err by a logger.(ò‹×ºúÿÿÿÿ8˜ò´Ş‹0
+U	java:S106J"9Replace this use of System.out or System.err by a logger.(õ«¹£8˜ò´Ş‹0
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(§šÉ¦ûÿÿÿÿ8˜ò´Ş‹0
+Z	java:S106P"9Replace this use of System.out or System.err by a logger.(ü•†ûúÿÿÿÿ8 ò´Ş‹0
+U	java:S106S"9Replace this use of System.out or System.err by a logger.(ı““‡8 ò´Ş‹0
+Z	java:S106V"9Replace this use of System.out or System.err by a logger.(½ş¼Àøÿÿÿÿ8 ò´Ş‹0
+U	java:S106X"9Replace this use of System.out or System.err by a logger.( Œ¦İ8 ò´Ş‹0
+i	java:S100\"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï—–t8 ò´Ş‹0
+{
+java:S3012^"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(œ¿Àııÿÿÿÿ8 ò´Ş‹0

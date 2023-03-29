@@ -1,0 +1,48 @@
+
+F
+java:S1172
+"+Remove this unused method parameter "args".(÷ˆ¿Ôüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ù©È±
+A
+java:S1172"+Remove this unused method parameter "args".(†›•é
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(Ù©È±
+F
+java:S1172-"+Remove this unused method parameter "args".(’Õİ°ıÿÿÿÿ
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(¥÷úÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(Èÿ€Óûÿÿÿÿ
+A
+java:S1172D"+Remove this unused method parameter "args".(¯ç¼§
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(ÕÙ…‹
+M	java:S106N"9Replace this use of System.out or System.err by a logger.(£î¶
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(Ÿ¯õİüÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(•Ò¨şÿÿÿÿ
+F
+java:S1172["+Remove this unused method parameter "args".(êÒœƒûÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+A
+java:S1172v"+Remove this unused method parameter "args".(’Èî
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(ÌÇÑİùÿÿÿÿ
+B
+java:S1172„"+Remove this unused method parameter "args".(Ú¼Øú
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(É­ùÿÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÿªåòùÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨Ø™Y
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(ÿªåòùÿÿÿÿ
+B
+java:S1172˜"+Remove this unused method parameter "args".(¸ó€Æ
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ
+G
+java:S1172©"+Remove this unused method parameter "args".(üÎÆıÿÿÿÿ
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(¹Æ–
+T	java:S106µ"9Replace this use of System.out or System.err by a logger.(şü”•ÿÿÿÿÿ
+O	java:S106º"9Replace this use of System.out or System.err by a logger.(À‘ä
+O	java:S106À"9Replace this use of System.out or System.err by a logger.(Ñ€ÌÒ
+O	java:S106Ã"9Replace this use of System.out or System.err by a logger.(À‘ä
+N
+java:S1172È"+Remove this unused method parameter "args".(À»Áùÿÿÿÿ8»Àõ”0
+O	java:S106Ì"9Replace this use of System.out or System.err by a logger.(šÁîï
+O	java:S106Ï"9Replace this use of System.out or System.err by a logger.(Š¯—
+T	java:S106Ó"9Replace this use of System.out or System.err by a logger.(ìË˜¸úÿÿÿÿ
+N	java:S106ã"9Replace this use of System.out or System.err by a logger.(šú¡b
+[	java:S106å"9Replace this use of System.out or System.err by a logger.(ĞÕ÷·ûÿÿÿÿ8¶³ı”0

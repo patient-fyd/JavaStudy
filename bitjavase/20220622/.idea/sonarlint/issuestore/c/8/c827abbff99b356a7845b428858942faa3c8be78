@@ -1,0 +1,96 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "hello" 9 times.(¼žÿä
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ÑØ§ýùÿÿÿÿ
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(Îçÿ±ýÿÿÿÿ
+W
+java:S4973 "<Strings and Boxed types should be compared using "equals()".(Ñ’«”úÿÿÿÿ
+R
+java:S4973/"<Strings and Boxed types should be compared using "equals()".(’Ëú‹
+R
+java:S49731"<Strings and Boxed types should be compared using "equals()".(®¹Õ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÑØ§ýùÿÿÿÿ
+F
+java:S1172"+Remove this unused method parameter "args".(ÂŽÇ—ýÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Îçÿ±ýÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ñ’«”úÿÿÿÿ
+F
+java:S1172)"+Remove this unused method parameter "args".(šÈþõøÿÿÿÿ
+;
+java:S2129," Remove this "String" constructor(ÞË‘øÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(’Ëú‹
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(®¹Õ
+F
+java:S11724"+Remove this unused method parameter "args".(µ ³ãþÿÿÿÿ
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(ÇúªÓþÿÿÿÿ
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(¯ÏËòúÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(ŒìžÂ
+A
+java:S1172@"+Remove this unused method parameter "args".(ÉÖ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+F
+java:S1172L"+Remove this unused method parameter "args".(÷ˆ¿Ôüÿÿÿÿ
+K
+java:S6035O"0Replace this alternation with a character class.(€³êçÿÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+A
+java:S1172U"+Remove this unused method parameter "args".(†›•é
+V	java:S125V"<This block of commented-out lines of code should be removed.(ÌÇúåýÿÿÿÿ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+F
+java:S1172_"+Remove this unused method parameter "args".(’ÕÝ°ýÿÿÿÿ
+M	java:S106c"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+M	java:S106d"9Replace this use of System.out or System.err by a logger.(âùÏ=
+A
+java:S1172g"+Remove this unused method parameter "args".(¯ç¼§
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(èÌÒ—úÿÿÿÿ
+N	java:S106o"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
+F
+java:S1172s"+Remove this unused method parameter "args".(êÒœƒûÿÿÿÿ
+M	java:S106v"9Replace this use of System.out or System.err by a logger.(œ™À
+N	java:S106z"9Replace this use of System.out or System.err by a logger.(ëë¢Ø
+T
+java:S1854…"8Remove this useless assignment to local variable "ret3".(“Ï‡üÿÿÿÿ
+O
+java:S1854„"8Remove this useless assignment to local variable "ret2".(²çÚ‘
+A
+java:S1172}"+Remove this unused method parameter "args".(’Èî
+N	java:S106€"9Replace this use of System.out or System.err by a logger.(ƒÚáB
+U
+java:S2130ƒ"9Use "Integer.parseInt" for this string-to-int conversion.(úÁß™ùÿÿÿÿ
+@
+java:S1481„")Remove this unused "ret2" local variable.(²çÚ‘
+E
+java:S1481…")Remove this unused "ret3" local variable.(“Ï‡üÿÿÿÿ
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(»Ç¹öøÿÿÿÿ
+B
+java:S1172‰"+Remove this unused method parameter "args".(Ú¼Øú
+T	java:S106"9Replace this use of System.out or System.err by a logger.(éÐ«þÿÿÿÿ
+B
+java:S1172‘"+Remove this unused method parameter "args".(¸ó€Æ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(ºùÆÉ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(–ÉÎûÿÿÿÿ
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(„›È¬
+G
+java:S1172Ÿ"+Remove this unused method parameter "args".(üÎÆýÿÿÿÿ
+7
+java:S2129¡" Remove this "String" constructor(âÜ€­
+7
+java:S2129¢" Remove this "String" constructor(‰¾Ò‹
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(ŸÖ³úùÿÿÿÿ
+O	java:S106¦"9Replace this use of System.out or System.err by a logger.(½¯¹½
+R	java:S125©"<This block of commented-out lines of code should be removed.(×Šïþ
+G
+java:S1172°"+Remove this unused method parameter "args".(À»Áùÿÿÿÿ
+7
+java:S2129²" Remove this "String" constructor(âÜ€­
+<
+java:S2129³" Remove this "String" constructor(¦ÃàÅüÿÿÿÿ
+O	java:S106¶"9Replace this use of System.out or System.err by a logger.(Î’ÛÚ
+N	java:S106·"9Replace this use of System.out or System.err by a logger.(œ™À
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(ëë¢Ø
+O	java:S106º"9Replace this use of System.out or System.err by a logger.(ÅÀ†¿
+H
+java:S1128"-Remove this unused import 'java.util.Locale'.(åð×±ûÿÿÿÿ

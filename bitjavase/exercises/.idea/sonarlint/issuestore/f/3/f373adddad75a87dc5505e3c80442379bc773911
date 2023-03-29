@@ -1,0 +1,4 @@
+
+x
+java:S4165"bRemove this useless assignment; "str3" already holds the assigned value along all execution paths.(éíÙò
+S	java:S106"9Replace this use of System.out or System.err by a logger.(–í˜úÿÿÿÿ

@@ -1,0 +1,13 @@
+
+m
+java:S1104"PMake elem a static final constant or non-public and provide accessors if needed.(«ÏÁ¢8äÃØ™0
+v
+java:S1104"TMake usedSize a static final constant or non-public and provide accessors if needed.(ÑÀºíüÿÿÿÿ8æÃØ™0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÌÄŸj8ãÈØ™0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8çÈØ™0
+^
+java:S11264"AReplace this if-then-else statement by a single return statement.(©ëÔ¢8şÈØ™0
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(Ö¼ôË8…ÉØ™0
+U	java:S106{"9Replace this use of System.out or System.err by a logger.(Ö¼ôË8–ÉØ™0
+V	java:S106«"9Replace this use of System.out or System.err by a logger.(—ã¿›8¢ÉØ™0
+[	java:S106¯"9Replace this use of System.out or System.err by a logger.(ıˆ‹Òşÿÿÿÿ8¥ÉØ™0

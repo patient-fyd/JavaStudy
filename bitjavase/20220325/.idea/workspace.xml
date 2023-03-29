@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="903f6a39-5877-4deb-b515-c7354c6be614" name="Changes" comment="提交代码">
+      <change afterPath="$PROJECT_DIR$/../20220327/.idea/sonarlint/issuestore/f/d/fd25279727807321cc22d3e88d0ce8b7f26a1b52" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/0/2/022198caa5ffda706e51835fc8caf0a941b3445c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/2/0/2010237967b18fce57e851f5c2bbab3af27bfb31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/9/4/948b6726e3e09fcb26e9acbae0f152820ded1a81" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/9/6/9654bfd3d949fe03bfe6b879e950815f3c2bd908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/a/c/acab9b4a4a5b7d4adde7cee922ab534a863aaba4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/b/1/b163233df275a13043ebf6d0779e8eb8b90611f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/b/6/b62c77341f50b208b8e99f839d1e256028effa55" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/e/0/e0c6538787771cd32f79bd4a99428ed91d147878" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestBook/.idea/sonarlint/issuestore/f/b/fbd63eb400b26bcb69d1b44046cadc75e44d36dc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercises/src/JavaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/sonarlint/issuestore/7/8/78fd0e327b9d7d5427028d86f0929c495e74774d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/src/xbl/HomeWork_02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93a72e8bb7adf933cf669fefb46b45cb1a855397" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fd25279727807321cc22d3e88d0ce8b7f26a1b52" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20220412/.idea/sonarlint/issuestore/7/4/74043653532ca5c97a1a75ccb59d302003ebbf41" beforeDir="false" afterPath="$PROJECT_DIR$/../20220412/.idea/sonarlint/issuestore/7/4/74043653532ca5c97a1a75ccb59d302003ebbf41" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20220412/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../20220412/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestBook/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestBook/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercises/.idea/sonarlint/issuestore/6/b/6b06a67ccbcbdf8a68de48f52a8a405775935e14" beforeDir="false" afterPath="$PROJECT_DIR$/../exercises/.idea/sonarlint/issuestore/6/b/6b06a67ccbcbdf8a68de48f52a8a405775935e14" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercises/src/TestDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercises/src/TestDemo1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26vD8THQ1VuifMhZou6RWxWjlQy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../20220402" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Date" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Date" />
+      <module name="20220325" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Date" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="903f6a39-5877-4deb-b515-c7354c6be614" name="Changes" comment="" />
+      <created>1648295017953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648295017953</updated>
+      <workItem from="1649947551916" duration="18000" />
+      <workItem from="1651651375328" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交代码">
+      <created>1648306947631</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648306947631</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
+  </component>
+</project>
