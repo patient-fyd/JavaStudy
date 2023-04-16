@@ -10,8 +10,8 @@ public class Framework {
     // 底盘
     private Bottom bottom;
 
-    public Framework(){
-        bottom = new Bottom();
+    public Framework(int size){
+        bottom = new Bottom(size);
     }
     public void init(){
         System.out.println("Framework init");

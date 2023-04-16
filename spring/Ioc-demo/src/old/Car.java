@@ -9,12 +9,13 @@ public class Car {
     // 框架
     private Framework framework;
 
-    public Car(){
-        framework = new Framework();
+    public Car(int size){
+        framework = new Framework(size);
     }
     public static void main(String[] args) {
+        int size = 15;
         // 构建并运行车
-        Car car = new Car();
+        Car car = new Car(size);
         car.init();
     }
     // 汽车运行

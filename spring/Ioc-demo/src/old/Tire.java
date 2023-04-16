@@ -8,6 +8,10 @@ package old;
 public class Tire {
     // 尺寸
     private int size = 17;
+
+    public Tire(int size){
+        this.size = size;
+    }
     public void init(){
         System.out.println("Tire size: " + size );
     }

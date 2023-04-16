@@ -9,8 +9,8 @@ public class Bottom {
     // 轮胎
     private Tire tire;
 
-    public Bottom(){
-        tire = new Tire();
+    public Bottom(int size){
+        tire = new Tire(size);
     }
     public void init(){
         System.out.println("Bottom init");
