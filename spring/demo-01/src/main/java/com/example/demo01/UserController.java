@@ -13,6 +13,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @RequestMapping("/sayhi")
     public String sayHi(){
-        return "Hi,Spring Boot.";
+        return "Hi,dddd.";
     }
 }
