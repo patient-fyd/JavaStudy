@@ -10,6 +10,7 @@ public class Bottom {
     private Tire tire;
 
     public Bottom(int size){
+        // 自己造轮胎
         tire = new Tire(size);
     }
     public void init(){
