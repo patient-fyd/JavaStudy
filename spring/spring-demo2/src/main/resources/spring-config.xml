@@ -4,5 +4,6 @@
        xmlns:content="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <content:component-scan base-package="com.fyd"></content:component-scan>
+    <!-- 配置存储Bean对象的扫描根路径 -->
+    <content:component-scan base-package="com.fyd"/>
 </beans>
