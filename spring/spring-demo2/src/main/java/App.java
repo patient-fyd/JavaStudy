@@ -2,6 +2,7 @@ import com.fyd.component.UserComponent;
 import com.fyd.config.UserConfiguration;
 import com.fyd.controller.StuController;
 import com.fyd.controller.UserController;
+import com.fyd.model.User;
 import com.fyd.repository.UserRepository;
 import com.fyd.service.UserService;
 import org.springframework.context.ApplicationContext;
@@ -20,34 +21,19 @@ public class App {
         // 1.得到spring上下文对象
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("spring-config.xml");
-        // 2.从spring容器中获取对象 [使用注解，默认的命名规则是类名小驼峰]
-        UserController userController =
-              (UserController) context.getBean("userController", UserController.class);
-        // 3.调用对象的方法
-        userController.sayHello();
-
-        StuController stuController =
-                (StuController) context.getBean("stuController", StuController.class);
-        stuController.doController();
-
-
-//        UserService userService =
-//                context.getBean("userService", UserService.class);
-//        userService.doService();
+//        // 2.从spring容器中获取对象 [使用注解，默认的命名规则是类名小驼峰]
+//        UserController userController =
+//              (UserController) context.getBean("userController", UserController.class);
+//        // 3.调用对象的方法
+//        userController.sayHello();
+//
+//        StuController stuController =
+//                (StuController) context.getBean("stuController", StuController.class);
+//        stuController.doController();
 
 
-//        UserRepository userRepository =
-//                context.getBean("userRepository", UserRepository.class);
-//        userRepository.doRepository();
 
-
-//        UserComponent userComponent =
-//                context.getBean("userComponent", UserComponent.class);
-//        userComponent.doComponent();
-
-
-//        UserConfiguration userConfiguration =
-//                context.getBean("userConfiguration", UserConfiguration.class);
-//        userConfiguration.doConfiguration();
+        User user = context.getBean("user", User.class);
+        System.out.println("id: " + user.getId() + ", name: " + user.getName() + ", age: " + user.getAge());
     }
 }
