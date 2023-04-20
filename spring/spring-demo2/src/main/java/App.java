@@ -31,7 +31,7 @@ public class App {
 //                (StuController) context.getBean("stuController", StuController.class);
 //        stuController.doController();
 
-
+// 请假一天做ppt
 
         User user = context.getBean("user", User.class);
         System.out.println("id: " + user.getId() + ", name: " + user.getName() + ", age: " + user.getAge());
