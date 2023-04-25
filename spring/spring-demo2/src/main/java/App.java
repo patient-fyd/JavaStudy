@@ -21,6 +21,10 @@ public class App {
         // 1.得到spring上下文对象
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("spring-config.xml");
+
+        UserController userController =
+                (UserController) context.getBean("userController", UserController.class);
+        userController.sayHello();
 //        // 2.从spring容器中获取对象 [使用注解，默认的命名规则是类名小驼峰]
 //        UserController userController =
 //              (UserController) context.getBean("userController", UserController.class);
@@ -31,9 +35,10 @@ public class App {
 //                (StuController) context.getBean("stuController", StuController.class);
 //        stuController.doController();
 
-// 请假一天做ppt
 
-        User user = context.getBean("user", User.class);
-        System.out.println("id: " + user.getId() + ", name: " + user.getName() + ", age: " + user.getAge());
+        // 4.测试注解 使用的是对象的方法名来使用对象
+//        User user = context.getBean("student_user1", User.class);
+//        System.out.println("id: " + user.getId() + ", name: " + user.getName() + ", age: " + user.getAge());
+
     }
 }
