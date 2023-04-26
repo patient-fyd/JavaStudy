@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 public class StudentBeans {
     // Bean方法注解只能使用到无参的方法上，因为spring初始化的时候无法提供参数
     @Bean(name = "student_user1")
-    public User student_user() {
+    public User user() {
         User user = new User();
         user.setId(1);
         user.setName("StudentBeans:fyd");

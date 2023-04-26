@@ -3,6 +3,7 @@ import com.fyd.config.UserConfiguration;
 import com.fyd.controller.StuController;
 import com.fyd.controller.UserController;
 import com.fyd.controller.UserController2;
+import com.fyd.controller.UserController3;
 import com.fyd.model.User;
 import com.fyd.repository.UserRepository;
 import com.fyd.service.UserService;
@@ -23,9 +24,13 @@ public class App {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("spring-config.xml");
 
-        UserController2 userController2 =
-                context.getBean("userController2", UserController2.class);
-        userController2.doController();
+        UserController3 userController3 =
+                context.getBean("userController3", UserController3.class);
+        userController3.doController();
+
+//        UserController2 userController2 =
+//                context.getBean("userController2", UserController2.class);
+//        userController2.doController();
 
 //        UserController userController =
 //                (UserController) context.getBean("userController", UserController.class);
