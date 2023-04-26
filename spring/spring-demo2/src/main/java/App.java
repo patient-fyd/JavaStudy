@@ -2,6 +2,7 @@ import com.fyd.component.UserComponent;
 import com.fyd.config.UserConfiguration;
 import com.fyd.controller.StuController;
 import com.fyd.controller.UserController;
+import com.fyd.controller.UserController2;
 import com.fyd.model.User;
 import com.fyd.repository.UserRepository;
 import com.fyd.service.UserService;
@@ -22,9 +23,13 @@ public class App {
         ApplicationContext context =
                 new ClassPathXmlApplicationContext("spring-config.xml");
 
-        UserController userController =
-                (UserController) context.getBean("userController", UserController.class);
-        userController.sayHello();
+        UserController2 userController2 =
+                context.getBean("userController2", UserController2.class);
+        userController2.doController();
+
+//        UserController userController =
+//                (UserController) context.getBean("userController", UserController.class);
+//        userController.sayHello();
 //        // 2.从spring容器中获取对象 [使用注解，默认的命名规则是类名小驼峰]
 //        UserController userController =
 //              (UserController) context.getBean("userController", UserController.class);
