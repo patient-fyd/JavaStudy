@@ -2,6 +2,7 @@ package com.fyd.controller;
 
 import com.fyd.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 import javax.annotation.Resource;
@@ -16,7 +17,12 @@ public class UserController3 {
 
 //    @Autowired
 //    private User user;
-    @Resource(name = "student_user1")
+
+//    @Resource(name = "student_user1")
+//    private User user;
+
+    @Autowired
+    @Qualifier(value = "student_user1") // 指定注入的bean
     private User user;
 
     public void doController() {
