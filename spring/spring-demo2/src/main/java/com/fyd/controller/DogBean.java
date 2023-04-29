@@ -2,6 +2,7 @@ package com.fyd.controller;
 
 import com.fyd.model.Dog;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 /**
@@ -11,6 +12,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class DogBean {
+    // @Scope(ConfigurableBeanFactory.SCOPE_PROTOTYPE)
+    @Scope("prototype") // 默认是单例模式,prototype是多例模式
     @Bean
     public Dog dog() {
         Dog dog = new Dog();
