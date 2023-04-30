@@ -1,13 +1,14 @@
-package com.fyd.springbootdemo;
+package com.fyd.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class SpringbootDemoApplication {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringbootDemoApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }
