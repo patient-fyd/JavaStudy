@@ -17,18 +17,27 @@ import javax.xml.ws.Service;
 public class App {
     public static void main(String[] args) {
 
-        // 1.得到spring上下文对象
-        ApplicationContext context =
+        ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext("spring-config.xml");
+        // 1.测试bean的生命周期
+        BeanLifeComponent beanLifeComponent =
+                context.getBean("beanlife", BeanLifeComponent.class);
+        beanLifeComponent.use();
+        // 关闭容器
+        context.destroy();
 
-        ScopeController scopeController =
-                context.getBean("scopeController", ScopeController.class);
-        scopeController.doScope();
-        System.out.println();
-
-        ScopeController2 scopeController2 =
-                context.getBean("scopeController2", ScopeController2.class);
-        scopeController2.doScope();
+//        // 1.得到spring上下文对象
+//        ApplicationContext context =
+//                new ClassPathXmlApplicationContext("spring-config.xml");
+//
+//        ScopeController scopeController =
+//                context.getBean("scopeController", ScopeController.class);
+//        scopeController.doScope();
+//        System.out.println();
+//
+//        ScopeController2 scopeController2 =
+//                context.getBean("scopeController2", ScopeController2.class);
+//        scopeController2.doScope();
 
 //        UserController3 userController3 =
 //                context.getBean("userController3", UserController3.class);

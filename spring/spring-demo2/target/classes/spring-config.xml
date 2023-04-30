@@ -6,4 +6,8 @@
 
     <!-- 配置存储Bean对象的扫描根路径 -->
     <content:component-scan base-package="com.fyd"/>
+
+    <bean id="beanlife" class="com.fyd.controller.BeanLifeComponent"
+        init-method="initMethod"></bean>
+
 </beans>
