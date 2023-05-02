@@ -3,10 +3,20 @@
 mystring: gfy
 
 
-# 设置日志的保存名称
+
 logging:
+# 设置日志的保存名称
   file:
     name: mylog.log
+# 日志级别设置
+  level:
+    root: info
+    com.gfy: debug
+    com.gfy.controller: trace
+    com.gfy.service: warn
+    com.gfy.dao: error
+
+
 # 运行环境配置
 spring:
   profiles:

@@ -39,7 +39,11 @@ public class TestController {
 
     @RequestMapping("/test")
     public String test() {
-        logger.info("hi,spring boot log");
+        logger.info("hi,spring boot info");
+        logger.trace("hi,spring boot trace");
+        logger.debug("hi,spring boot debug");
+        logger.warn("hi,spring boot warn");
+        logger.error("hi,spring boot error");
         return "hi，" + myList.getDbtype().size() + " " + myList.getDbtype().get(0);
     }
 }
