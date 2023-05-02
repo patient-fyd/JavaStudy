@@ -2,6 +2,11 @@
 # 一级用户自定义配置项
 mystring: gfy
 
+
+# 设置日志的保存名称
+logging:
+  file:
+    name: mylog.log
 # 运行环境配置
 spring:
   profiles:
