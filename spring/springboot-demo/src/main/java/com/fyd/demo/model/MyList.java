@@ -18,5 +18,5 @@ import java.util.List;
 @Component
 public class MyList {
 
-    private List dbtype;
+    private List<String> dbtype;
 }
