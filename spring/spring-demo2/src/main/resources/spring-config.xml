@@ -4,7 +4,10 @@
        xmlns:content="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id = "user" class="com.fyd.User">
+    <!-- 配置存储Bean对象的扫描根路径 -->
+    <content:component-scan base-package="com.fyd"/>
 
-    </bean>
+    <bean id="beanlife" class="com.fyd.controller.BeanLifeComponent"
+        init-method="initMethod"></bean>
+
 </beans>

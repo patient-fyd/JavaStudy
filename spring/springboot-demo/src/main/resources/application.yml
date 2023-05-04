@@ -1,0 +1,36 @@
+
+# 一级用户自定义配置项
+mystring: gfy
+
+
+
+logging:
+# 设置日志的保存名称
+  file:
+    name: mylog.log
+# 日志级别设置
+  level:
+    root: info
+    com.gfy: debug
+    com.gfy.controller: trace
+    com.gfy.service: warn
+    com.gfy.dao: error
+
+
+# 运行环境配置
+spring:
+  profiles:
+    active: dev
+
+student:
+  id: 111
+  name: stu1
+  age: 21
+
+student2: {di: 222,name: stu2,age: 22}
+
+mylist:
+  dbtype:
+    - mysql
+    - sqlite
+    - sqlserver

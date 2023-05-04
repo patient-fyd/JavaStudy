@@ -1,0 +1,8 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÉÔ‘—üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”ÀœÏþÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(íµ€»þÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(³¦¹ôüÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(¶ÆÜˆúÿÿÿÿ
+`
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Þ÷Ñ¸ÿÿÿÿÿ
