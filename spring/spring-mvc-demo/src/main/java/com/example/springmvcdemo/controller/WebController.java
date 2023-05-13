@@ -1,5 +1,7 @@
 package com.example.springmvcdemo.controller;
 
+import com.example.springmvcdemo.model.Student;
+import com.example.springmvcdemo.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -41,5 +43,36 @@ public class WebController {
     @GetMapping("/get2")
     public String getParam2(String name,Integer age){
         return "name:" + name + " age: " + age;
+    }
+
+    /**
+     * 获取对象参数
+     * @param student
+     * @return
+     */
+    @GetMapping("/get3")
+    public String getParam3(Student student){
+        return student.toString();
+    }
+
+    /**
+     * 获取form表单中的参数
+     * @param username
+     * @param password
+     * @return
+     */
+    @PostMapping("/login")
+    public String login(String username,String password){
+        return "<h1>用户名" + username + "密码" + password + "</h1>";
+    }
+
+    /**
+     * 获取form表单（多个参数）
+     * @param user
+     * @return
+     */
+    @RequestMapping("/reg")
+    public String reg(User user){
+        return user.toString();
     }
 }
