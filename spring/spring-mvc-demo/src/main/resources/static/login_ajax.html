@@ -11,16 +11,29 @@
 <body>
 <h1>登录</h1>
 
-    <div>
-        <input type="text" name="username" placeholder="用户名">
-        <br>
-        <input type="password" name="password" placeholder="密码">
-        <br>
-        <input type="submit" onclick="onsub()" value="登录">
-    </div>
+<div>
+    <input type="text" id="username" name="username" placeholder="用户名">
+    <br>
+    <input type="password" id="password" name="password" placeholder="密码">
+    <br>
+    <input type="submit" onclick="onsub()" value="登录">
+</div>
 <script>
     function onsub() {
-        
+        // 请求后端接口使用ajax
+        jQuery.ajax({
+            url: "/web/login2",
+            type: "post",
+            data: {
+                username: jQuery("#username").val(),
+                password: jQuery("#password").val()
+            },
+            success: function (data) {
+                alert(data);
+                console.dir(data);
+            }
+        });
+
     }
 </script>
 </body>

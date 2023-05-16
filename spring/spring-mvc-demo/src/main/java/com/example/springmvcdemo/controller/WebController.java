@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.HashMap;
 
 /**
  * @Author: Fourteen-Y
@@ -64,6 +65,20 @@ public class WebController {
     @PostMapping("/login")
     public String login(String username,String password){
         return "<h1>用户名" + username + "密码" + password + "</h1>";
+    }
+
+    /**
+     * 获取form表单中的参数
+     * @param username
+     * @param password
+     * @return
+     */
+    @RequestMapping("/login2")
+    public HashMap<String, Object> login2(String username, String password){
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("username",username);
+        map.put("password",password);
+        return map;
     }
 
     /**
