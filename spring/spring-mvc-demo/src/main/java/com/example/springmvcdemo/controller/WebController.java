@@ -115,7 +115,11 @@ public class WebController {
     }
 
     /**
-     * 上传文件
+     * 获取上传文件
+     * @param username
+     * @param file
+     * @return
+     * @throws IOException
      */
     @RequestMapping("/reg2")
     public String reg2(String username, @RequestPart("myfile") MultipartFile file) throws IOException {
