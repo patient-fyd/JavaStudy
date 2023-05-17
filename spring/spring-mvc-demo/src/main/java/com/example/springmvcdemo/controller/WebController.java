@@ -116,6 +116,7 @@ public class WebController {
 
     /**
      * 获取上传文件
+     *
      * @param username
      * @param file
      * @return
@@ -130,11 +131,12 @@ public class WebController {
 
     /**
      * spring mvc 获取 cookie 值
+     *
      * @param jsessionid
      * @return
      */
     @RequestMapping("/getck")
-    public String getCookie(@CookieValue("JSESSIONID") String jsessionid){
+    public String getCookie(@CookieValue("JSESSIONID") String jsessionid) {
         return "JSESSIONID=" + jsessionid;
     }
 
