@@ -128,6 +128,16 @@ public class WebController {
         return username + "上传了" + file.getOriginalFilename();
     }
 
+    /**
+     * spring mvc 获取 cookie 值
+     * @param jsessionid
+     * @return
+     */
+    @RequestMapping("/getck")
+    public String getCookie(@CookieValue("JSESSIONID") String jsessionid){
+        return "JSESSIONID=" + jsessionid;
+    }
+
 }
 
 
