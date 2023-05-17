@@ -164,7 +164,7 @@ public class WebController {
      * @return
      */
     @RequestMapping("/getsession")
-    public String getsession(@SessionAttribute("username") String username) {
+    public String getsession(@SessionAttribute(value = "username", required = false) String username) {
         return "username" + username;
     }
 
