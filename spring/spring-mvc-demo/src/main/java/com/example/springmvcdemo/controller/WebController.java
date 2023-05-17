@@ -8,6 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -138,6 +139,33 @@ public class WebController {
     @RequestMapping("/getck")
     public String getCookie(@CookieValue("JSESSIONID") String jsessionid) {
         return "JSESSIONID=" + jsessionid;
+    }
+
+    /**
+     * 设置 session
+     *
+     * @param request
+     * @return
+     */
+    @RequestMapping("/setsession")
+    public String setsession(HttpServletRequest request) {
+        // 获取 HttpSession 对象，参数设置为true 表示如果没有session对象就创建一个session
+        HttpSession session = request.getSession(true);
+        if (session != null) {
+            session.setAttribute("username", "java");
+        }
+        return "session 储存成功";
+    }
+
+    /**
+     * 读取session
+     *
+     * @param username
+     * @return
+     */
+    @RequestMapping("/getsession")
+    public String getsession(@SessionAttribute("username") String username) {
+        return "username" + username;
     }
 
 }
