@@ -81,6 +81,11 @@ public class WebController {
         return map;
     }
 
+    /**
+     * 得到用户传递的json数据
+     * @param user
+     * @return
+     */
     @RequestMapping("/login3")
     public HashMap<String, Object> login3(@RequestBody User user){
         HashMap<String, Object> map = new HashMap<>();
