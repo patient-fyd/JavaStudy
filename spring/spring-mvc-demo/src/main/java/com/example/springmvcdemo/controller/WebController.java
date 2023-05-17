@@ -81,6 +81,14 @@ public class WebController {
         return map;
     }
 
+    @RequestMapping("/login3")
+    public HashMap<String, Object> login3(@RequestBody User user){
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("username",user.getUsername());
+        map.put("password",user.getPassword());
+        return map;
+    }
+
     /**
      * 获取form表单（多个参数）
      * @param user
@@ -90,4 +98,5 @@ public class WebController {
     public String reg(User user){
         return user.toString();
     }
+
 }
