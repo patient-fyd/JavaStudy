@@ -2,6 +2,7 @@ package com.example.springmvcdemo.controller;
 
 import com.example.springmvcdemo.model.Student;
 import com.example.springmvcdemo.model.User;
+import org.jetbrains.annotations.NotNull;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -26,7 +27,7 @@ public class WebController {
     //@RequestMapping(value = "/hi",method = RequestMethod.GET)
     @GetMapping("/hi")
     //@PostMapping("/hi")
-    public Object sayHi(HttpServletRequest request, HttpServletResponse response) {
+    public Object sayHi(@NotNull HttpServletRequest request, HttpServletResponse response) {
         return "hi," + request.getParameter("name");
     }
 
@@ -59,7 +60,7 @@ public class WebController {
      * @return
      */
     @GetMapping("/get3")
-    public String getParam3(Student student) {
+    public String getParam3(@NotNull Student student) {
         return student.toString();
     }
 
@@ -97,7 +98,7 @@ public class WebController {
      * @return
      */
     @RequestMapping("/login3")
-    public HashMap<String, Object> login3(@RequestBody User user) {
+    public HashMap<String, Object> login3(@RequestBody @NotNull User user) {
         HashMap<String, Object> map = new HashMap<>();
         map.put("username", user.getUsername());
         map.put("password", user.getPassword());
@@ -111,7 +112,7 @@ public class WebController {
      * @return
      */
     @RequestMapping("/reg")
-    public String reg(User user) {
+    public String reg(@NotNull User user) {
         return user.toString();
     }
 
@@ -124,7 +125,7 @@ public class WebController {
      * @throws IOException
      */
     @RequestMapping("/reg2")
-    public String reg2(String username, @RequestPart("myfile") MultipartFile file) throws IOException {
+    public String reg2(String username, @RequestPart("myfile") @NotNull MultipartFile file) throws IOException {
         // 保存文件
         file.transferTo(new File("C:\\Users\\33275\\Documents\\WK\\" + file.getOriginalFilename()));
         return username + "上传了" + file.getOriginalFilename();
@@ -148,7 +149,7 @@ public class WebController {
      * @return
      */
     @RequestMapping("/setsession")
-    public String setsession(HttpServletRequest request) {
+    public String setsession(@NotNull HttpServletRequest request) {
         // 获取 HttpSession 对象，参数设置为true 表示如果没有session对象就创建一个session
         HttpSession session = request.getSession(true);
         if (session != null) {
@@ -166,6 +167,16 @@ public class WebController {
     @RequestMapping("/getsession")
     public String getsession(@SessionAttribute(value = "username", required = false) String username) {
         return "username" + username;
+    }
+
+    /**
+     * 获取header
+     * @param userAgent
+     * @return
+     */
+    @RequestMapping("/getheader")
+    public String getHeader(@RequestHeader("User-Agent") String userAgent) {
+        return "User-Agent:" + userAgent;
     }
 
 }
