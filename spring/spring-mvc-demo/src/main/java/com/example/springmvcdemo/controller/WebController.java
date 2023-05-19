@@ -171,12 +171,24 @@ public class WebController {
 
     /**
      * 获取header
+     *
      * @param userAgent
      * @return
      */
     @RequestMapping("/getheader")
     public String getHeader(@RequestHeader("User-Agent") String userAgent) {
         return "User-Agent:" + userAgent;
+    }
+
+    /**
+     * 前端参数重命名
+     *
+     * @param username
+     * @return
+     */
+    @RequestMapping("/rename")
+    public String rename(@RequestParam(value = "u", required = false) String username) {
+        return "username:" + username;
     }
 
 }
