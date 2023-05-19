@@ -191,6 +191,17 @@ public class WebController {
         return "username:" + username;
     }
 
+    /**
+     * 获取路径参数
+     *
+     * @param id
+     * @return
+     */
+    @RequestMapping("/getpath/{id}")
+    public String getPath(@PathVariable("id") String id) {
+        return "id:" + id;
+    }
+
 }
 
 
