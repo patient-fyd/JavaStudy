@@ -202,6 +202,26 @@ public class WebController {
         return "id:" + id;
     }
 
+    /**
+     * 请求转发
+     *
+     * @return
+     */
+    @RequestMapping("/forward")
+    public String forward() {
+        return "forward:/index.html";
+    }
+
+    /**
+     * 请求重定向
+     *
+     * @return
+     */
+    @RequestMapping("/redirect")
+    public String redirect() {
+        return "redirect:/index.html";
+    }
+
 }
 
 
