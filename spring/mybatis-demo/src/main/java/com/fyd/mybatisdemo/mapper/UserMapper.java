@@ -2,6 +2,7 @@ package com.fyd.mybatisdemo.mapper;
 
 import com.fyd.mybatisdemo.model.UserInfo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -12,5 +13,13 @@ import java.util.List;
  */
 @Mapper
 public interface UserMapper {
+    /**
+     *  查询所有的信息
+     */
     public List<UserInfo> getAll();
+
+    /**
+     *  根据id查询用户信息
+     */
+    public UserInfo getUserById(@Param("uid") Integer id);
 }
