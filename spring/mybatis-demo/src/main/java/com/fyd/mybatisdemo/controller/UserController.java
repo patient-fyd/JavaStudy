@@ -22,7 +22,6 @@ public class UserController {
 
     @RequestMapping("/getAll")
     public List<UserInfo> getAll() {
-        List<UserInfo> userList = null;
         return userService.getAll();
     }
 }
