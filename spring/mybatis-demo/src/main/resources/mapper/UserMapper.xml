@@ -5,6 +5,9 @@
         select * from userinfo
     </select>
     <select id="getUserById" resultType="com.fyd.mybatisdemo.model.UserInfo">
-        select * from userinfo where id = #{uid}
+        select * from userinfo where id = ${uid}
+    </select>
+    <select id="getUserByName" resultType="com.fyd.mybatisdemo.model.UserInfo">
+        select * from userinfo where username = ${username}
     </select>
 </mapper>

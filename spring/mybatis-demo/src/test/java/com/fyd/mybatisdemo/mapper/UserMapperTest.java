@@ -31,4 +31,10 @@ class UserMapperTest {
         UserInfo userInfo = userMapper.getUserById(1);
         System.out.println(userInfo.toString());
     }
+
+    @Test
+    void getUserByName() {
+        UserInfo userInfo = userMapper.getUserByName("admin");
+        System.out.println(userInfo.toString());
+    }
 }

@@ -22,4 +22,9 @@ public interface UserMapper {
      *  根据id查询用户信息
      */
     public UserInfo getUserById(@Param("uid") Integer id);
+
+    /**
+     * 根据用户姓名完全匹配查询
+     */
+    public UserInfo getUserByName(@Param("username") String username);
 }
