@@ -41,4 +41,10 @@ class ArticleInfoMapperTest {
         int result = articleInfoMapper.deleteArticleById(2);
         System.out.println("删除结果" + result);
     }
+
+    @Test
+    void updateTitle() {
+        int result = articleInfoMapper.updateTitle(3, "修改标题");
+        System.out.println("修改结果" + result);
+    }
 }

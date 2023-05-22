@@ -10,6 +10,9 @@
         insert into articleinfo(title, content, uid)
         values (#{title}, #{content}, #{uid})
     </insert>
+    <update id="updateTitle">
+        update articleinfo set title = #{title} where id = #{id}
+    </update>
     <delete id="deleteArticleById">
         delete from articleinfo where id = #{id}
     </delete>

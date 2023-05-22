@@ -24,4 +24,9 @@ public interface ArticleInfoMapper {
      * 根据id删除文章
      */
     public int deleteArticleById(Integer id);
+
+    /**
+     * 修改标题
+     */
+    public int updateTitle(Integer id, String title);
 }
