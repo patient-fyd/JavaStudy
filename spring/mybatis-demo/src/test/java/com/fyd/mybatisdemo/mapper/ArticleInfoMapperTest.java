@@ -25,4 +25,20 @@ class ArticleInfoMapperTest {
         int result = articleInfoMapper.addArticle(articleInfo);
         System.out.println("添加结果" + result);
     }
+
+    @Test
+    void addGetId() {
+        ArticleInfo articleInfo = new ArticleInfo();
+        articleInfo.setTitle("测试文章2，返回自增id");
+        articleInfo.setContent("设置xml中的useGeneratedKeys和keyProperty属性，可以返回自增id");
+        articleInfo.setUid(1);
+        int result = articleInfoMapper.addGetId(articleInfo);
+        System.out.println("添加结果" + result + "，返回自增id：" + articleInfo.getId());
+    }
+
+    @Test
+    void deleteArticleById() {
+        int result = articleInfoMapper.deleteArticleById(2);
+        System.out.println("删除结果" + result);
+    }
 }

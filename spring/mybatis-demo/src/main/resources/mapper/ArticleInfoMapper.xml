@@ -6,4 +6,12 @@
         insert into articleinfo(title, content, uid)
         values (#{title}, #{content}, #{uid})
     </insert>
+    <insert id="addGetId" useGeneratedKeys="true" keyProperty="id">
+        insert into articleinfo(title, content, uid)
+        values (#{title}, #{content}, #{uid})
+    </insert>
+    <delete id="deleteArticleById">
+        delete from articleinfo where id = #{id}
+    </delete>
+
 </mapper>

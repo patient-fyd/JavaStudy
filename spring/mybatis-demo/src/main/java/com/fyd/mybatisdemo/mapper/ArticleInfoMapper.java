@@ -14,4 +14,14 @@ public interface ArticleInfoMapper {
      * 添加文章
      */
     public int addArticle(ArticleInfo articleInfo);
+
+    /**
+     * 添加文章并返回自增id
+     */
+    public int addGetId(ArticleInfo articleInfo);
+
+    /**
+     * 根据id删除文章
+     */
+    public int deleteArticleById(Integer id);
 }
