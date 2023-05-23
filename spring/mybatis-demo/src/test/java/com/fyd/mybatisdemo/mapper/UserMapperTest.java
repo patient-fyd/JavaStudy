@@ -37,4 +37,20 @@ class UserMapperTest {
         UserInfo userInfo = userMapper.getUserByName("admin");
         System.out.println(userInfo.toString());
     }
+
+    @Test
+    void getAllOrder() {
+        List<UserInfo> userInfos = userMapper.getAllOrder("desc");
+        for (UserInfo userInfo : userInfos) {
+            System.out.println(userInfo.toString());
+        }
+    }
+
+    @Test
+    void login() {
+        String username = "'admin'";
+        String password = "''or 1='1'";
+        UserInfo userInfo = userMapper.login(username, password);
+        System.out.println(userInfo.toString());
+    }
 }

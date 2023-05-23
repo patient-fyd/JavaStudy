@@ -8,6 +8,12 @@
         select * from userinfo where id = ${uid}
     </select>
     <select id="getUserByName" resultType="com.fyd.mybatisdemo.model.UserInfo">
-        select * from userinfo where username = ${username}
+        select * from userinfo where username = #{username}
+    </select>
+    <select id="getAllOrder" resultType="com.fyd.mybatisdemo.model.UserInfo">
+        select * from userinfo order by id ${order}
+    </select>
+    <select id="login" resultType="com.fyd.mybatisdemo.model.UserInfo">
+        select * from userinfo where username = #{username} and password = ${password}
     </select>
 </mapper>

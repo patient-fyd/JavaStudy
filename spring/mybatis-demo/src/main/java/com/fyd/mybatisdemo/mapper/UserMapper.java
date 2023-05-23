@@ -19,6 +19,11 @@ public interface UserMapper {
     public List<UserInfo> getAll();
 
     /**
+     *  查询所有的信息（根据排序条件排序）
+     */
+    public List<UserInfo> getAllOrder(@Param("order") String order);
+
+    /**
      *  根据id查询用户信息
      */
     public UserInfo getUserById(@Param("uid") Integer id);
@@ -27,4 +32,6 @@ public interface UserMapper {
      * 根据用户姓名完全匹配查询
      */
     public UserInfo getUserByName(@Param("username") String username);
+
+    public UserInfo login(@Param("username") String username, @Param("password") String password);
 }
