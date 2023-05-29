@@ -34,4 +34,9 @@ public interface UserMapper {
     public UserInfo getUserByName(@Param("username") String username);
 
     public UserInfo login(@Param("username") String username, @Param("password") String password);
+
+    /**
+     * 模糊查询
+     */
+    public List<UserInfo> getUserByLikeName(@Param("username") String username);
 }

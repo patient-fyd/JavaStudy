@@ -16,4 +16,7 @@
     <select id="login" resultType="com.fyd.mybatisdemo.model.UserInfo">
         select * from userinfo where username = #{username} and password = ${password}
     </select>
+    <select id="getUserByLikeName" resultType="com.fyd.mybatisdemo.model.UserInfo">
+        select * from userinfo where username like concat('%',#{username},'%')
+    </select>
 </mapper>
