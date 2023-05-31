@@ -53,4 +53,12 @@ class UserMapperTest {
         UserInfo userInfo = userMapper.login(username, password);
         System.out.println(userInfo.toString());
     }
+
+    @Test
+    void getUserByLikeName() {
+        List<UserInfo> userInfos = userMapper.getUserByLikeName("a");
+        for (UserInfo userInfo : userInfos) {
+            System.out.println(userInfo.toString());
+        }
+    }
 }
