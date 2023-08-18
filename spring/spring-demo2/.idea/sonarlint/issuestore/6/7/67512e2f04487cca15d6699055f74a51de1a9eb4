@@ -6,18 +6,3 @@ Q	java:S125+"<This block of commented-out lines of code should be removed.(ˆ»†
 Q	java:S125/"<This block of commented-out lines of code should be removed.(âþûä
 Q	java:S1253"<This block of commented-out lines of code should be removed.(‹ÆËä
 Q	java:S125A"<This block of commented-out lines of code should be removed.(Æƒ‚À
-W
-java:S1128"<Remove this unused import 'com.fyd.component.UserComponent'.(Ê†ÏÇùÿÿÿÿ
-S
-java:S1128"=Remove this unused import 'com.fyd.config.UserConfiguration'.(†—Ü›
-J
-java:S1128"/Remove this unused import 'com.fyd.model.User'.(¬—ô½ýÿÿÿÿ
-Y
-java:S1128">Remove this unused import 'com.fyd.repository.UserRepository'.(½«¯ýøÿÿÿÿ
-S
-java:S1128"8Remove this unused import 'com.fyd.service.UserService'.(ñðÒìûÿÿÿÿ
-a
-java:S1128"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿
-L
-java:S1128
-"1Remove this unused import 'javax.xml.ws.Service'.(¬ŒòÓøÿÿÿÿ

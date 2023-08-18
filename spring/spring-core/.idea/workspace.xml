@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef4aaaf-1366-480a-a1a2-5a92cd367ab8" name="Changes" comment="" />
+    <list default="true" id="3ef4aaaf-1366-480a-a1a2-5a92cd367ab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/src/main/java/com/fyd/UComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/src/main/java/com/fyd/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/src/main/java/com/fyd/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/src/main/java/com/fyd/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/src/main/resources/spring-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaEE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaEE/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaEE/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaEE/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../javaEE/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../javaEE/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo1/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo1/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo1/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo1/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo1/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo1/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo1/target/classes/com/fyd/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo1/target/classes/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo2/.idea/sonarlint/issuestore/6/7/67512e2f04487cca15d6699055f74a51de1a9eb4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-demo2/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/App2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/component/UserComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/config/UserConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/BeanLifeComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/DogBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/ScopeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/ScopeController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/StuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/StudentBeans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/UserBeans.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/UserController2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/controller/UserController3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/model/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/com/fyd/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-demo2/target/classes/spring-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springtest1/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springtest1/target/classes/com/fyd/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springtest1/target/classes/com/fyd/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springtest1/target/classes/com/fyd/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springtest1/target/classes/com/fyd/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springtest1/target/classes/spring-config.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +92,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/code/bitjava/spring/spring-core",
+    "last_opened_file_path": "C:/code/bitjava/spring/springboot-demo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +100,9 @@
     "spring.configuration.checksum": "6b586d94569869d424a7b33402b00807"
   }
 }]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,6 +115,7 @@
       <workItem from="1681367753369" duration="279000" />
       <workItem from="1681439771561" duration="18000" />
       <workItem from="1681644038856" duration="320000" />
+      <workItem from="1691667173597" duration="20000" />
     </task>
     <servers />
   </component>

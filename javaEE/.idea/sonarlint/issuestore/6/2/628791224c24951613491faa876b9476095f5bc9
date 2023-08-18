@@ -1,0 +1,10 @@
+
+k
+java:S2259-"IA "NullPointerException" could be thrown; "inputStream" is nullable here.(¶ò†Áşÿÿÿÿ8¨»Š1
+X	java:S125"<This block of commented-out lines of code should be removed.(î¯ÔÉ8¨»Š1
+]	java:S125!"<This block of commented-out lines of code should be removed.(Ù§¬Åüÿÿÿÿ8‘¨»Š1
+U
+java:S4719%"9Replace charset name argument with StandardCharsets.UTF_8(çİ‰x8”¨»Š1
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8•¨»Š1
+L
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8—¨»Š1

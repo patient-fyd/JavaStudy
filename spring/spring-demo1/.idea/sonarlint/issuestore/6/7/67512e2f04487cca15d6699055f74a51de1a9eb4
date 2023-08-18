@@ -3,7 +3,3 @@
 S
 java:S1874"6Remove this use of "XmlBeanFactory"; it is deprecated.(ÄóèÆ8‹²ÂÉ†1
 X	java:S125"<This block of commented-out lines of code should be removed.(ë¯’Ÿ8Œ²ÂÉ†1
-h
-java:S1128"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿8²ÂÉ†1
-
-java:S1128"_Remove this unused import 'org.springframework.context.support.ClassPathXmlApplicationContext'.(•ËÛüÿÿÿÿ8²ÂÉ†1

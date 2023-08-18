@@ -1,5 +1,25 @@
 
 F
 src/main/java/App.java,6\7\67512e2f04487cca15d6699055f74a51de1a9eb4
+b
+2src/main/java/com/fyd/component/UserComponent.java,b\8\b89172e1128b656878816011ed7d82049b669368
 g
 7src/main/java/com/fyd/controller/BeanLifeComponent.java,d\3\d34e63c458140782713ee95946beb090d5c4e8e9
+d
+4src/main/java/com/fyd/repository/UserRepository.java,d\9\d913f98dd21c8eba17b38b038bdfd8c8fcb9b64c
+f
+6src/main/java/com/fyd/controller/ScopeController2.java,3\0\3085fae306fd9d3f990f1feaf4c9ee0c4bc787b2
+^
+.src/main/java/com/fyd/service/UserService.java,2\2\22b3b4fe2498298cd41f8f3f26bc40be3228a674
+e
+5src/main/java/com/fyd/controller/ScopeController.java,6\4\649c1838273376afb2b11e692e17c1081ca99143
+]
+-src/main/java/com/fyd/controller/DogBean.java,e\7\e7a469646291068c1b759a08ecf0b051afc00714
+_
+/src/main/java/com/fyd/controller/UserBeans.java,a\4\a41a8d82c7a7e4d573a468370089fa5fedab7314
+b
+2src/main/java/com/fyd/controller/StudentBeans.java,b\2\b2a44002ab52644d36c9b6d6c158054b89e5ea94
+c
+3src/main/java/com/fyd/controller/StuController.java,f\f\fffe7cb67139d54d3e4554150949cd3d186622c1
+d
+4src/main/java/com/fyd/controller/UserController.java,f\6\f6c784c223dd155b6f3d50d4abcc6cc2ec627ae4
