@@ -1,5 +1,6 @@
 package com.fyd.springmvcdemo.controller;
 
+import com.fyd.springmvcdemo.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -52,6 +53,37 @@ public class WebController {
     @RequestMapping("/getIntParam")
     public Object getIntParam(Integer id) {
         return "你的id是：" + id;
+    }
+
+    /**
+     * 获取多个参数
+     * @param name
+     * @param id
+     */
+    @RequestMapping("/getMultiParam")
+    public Object getMultiParam(String name, Integer id) {
+        return "Hello, " + name + "，你的id是：" + id;
+    }
+
+    /**
+     * 获取对象
+     * @param user
+     */
+    @RequestMapping("/getObject")
+    public Object getObject(User user) {
+        return user.toString();
+    }
+
+    /**
+     * 获取登录信息
+     */
+    @RequestMapping("/login")
+    public String login(String name,String password) {
+        if (name.equals("fyd") && password.equals("123456")) {
+            return "<h1>登录成功</h1>";
+        } else {
+            return "<h1>登录失败</h1>";
+        }
     }
 
 }
