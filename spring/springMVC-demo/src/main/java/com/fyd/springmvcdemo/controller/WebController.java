@@ -86,4 +86,12 @@ public class WebController {
         }
     }
 
+    /**
+     * 获取注册信息（多个参数）
+     */
+    @RequestMapping("/register")
+    public String register(User user) {
+        return user.toString();
+    }
+
 }
