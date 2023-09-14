@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import java.util.HashMap;
 
 /**
  * @Author: patient.fyd@gmail.com
@@ -92,6 +92,22 @@ public class WebController {
     @RequestMapping("/register")
     public String register(User user) {
         return user.toString();
+    }
+
+    /**
+     * ajax请求登录
+     */
+    @RequestMapping("/loginAjax")
+    public HashMap<String, Object> loginAjax(String name, String password) {
+        HashMap<String, Object> result = new HashMap<>();
+        if (name.equals("fyd") && password.equals("123456")) {
+            result.put("code", 200);
+            result.put("msg", "登录成功");
+        } else {
+            result.put("code", 500);
+            result.put("msg", "登录失败");
+        }
+        return result;
     }
 
 }
