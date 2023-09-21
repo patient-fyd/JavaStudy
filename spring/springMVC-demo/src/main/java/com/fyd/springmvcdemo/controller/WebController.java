@@ -2,6 +2,7 @@ package com.fyd.springmvcdemo.controller;
 
 import com.fyd.springmvcdemo.model.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -107,6 +108,18 @@ public class WebController {
             result.put("code", 500);
             result.put("msg", "登录失败");
         }
+        return result;
+    }
+
+    /**
+     * 获取用户传的json数据
+     */
+    @RequestMapping("/getJson")
+    public HashMap<String, Object> getJson(@RequestBody User user) {
+        HashMap<String, Object> result = new HashMap<>();
+        result.put("code", 200);
+        result.put("msg", "获取成功");
+        result.put("data", user);
         return result;
     }
 
