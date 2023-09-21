@@ -3,10 +3,7 @@ package com.fyd.springmvcdemo.controller;
 import com.fyd.springmvcdemo.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.ClassUtils;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
@@ -153,4 +150,38 @@ public class WebController {
         return filePath + " 上传成功";
     }
 
+
+    /**
+     * 获取cookie
+     */
+    @RequestMapping("/getCookie")
+    public String getCookie(@CookieValue("fyd") String cookie) {
+        return "cookie: " + cookie;
+    }
+
+    /**
+     * 获取header
+     */
+    @RequestMapping("/getHeader")
+    @ResponseBody
+    public String getHeader(@RequestHeader("header") String header) {
+        return "header: " + header;
+    }
+
+    /**
+     * 设置session
+     */
+    @RequestMapping("/setSession")
+    public String setSession(HttpServletRequest request) {
+        request.getSession().setAttribute("username", "fyd");
+        return "session: 设置成功";
+    }
+
+    /**
+     * 获取session
+     */
+    @RequestMapping("/getSession")
+    public String getSession(@SessionAttribute(value = "username",required = false) String username) {
+        return "session: " + username;
+    }
 }
