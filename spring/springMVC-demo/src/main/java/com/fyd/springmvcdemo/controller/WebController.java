@@ -2,12 +2,18 @@ package com.fyd.springmvcdemo.controller;
 
 import com.fyd.springmvcdemo.model.User;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.ClassUtils;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.UUID;
 
 /**
  * @Author: patient.fyd@gmail.com
@@ -121,6 +127,30 @@ public class WebController {
         result.put("msg", "获取成功");
         result.put("data", user);
         return result;
+    }
+
+    /**
+     * 上传文件，返回上传的路径
+     */
+    @RequestMapping("/upload")
+    public String upload(String name, @RequestPart("file") MultipartFile file) throws IOException {
+        // 获取文件名
+        String fileName = file.getOriginalFilename();
+        // 获取文件后缀
+        String suffixName = fileName.substring(fileName.lastIndexOf("."));
+        // 重新生成文件名
+        fileName = UUID.randomUUID() + suffixName;
+        // 获取项目路径
+        String filePath = ClassUtils.getDefaultClassLoader().getResource("").getPath() + "static/upload/";
+        // 创建文件路径
+        File dest = new File(filePath + fileName);
+        // 判断文件是否已经存在
+        if (!dest.getParentFile().exists()) {
+            dest.getParentFile().mkdirs();
+        }
+        // 上传文件
+        file.transferTo(dest);
+        return filePath + " 上传成功";
     }
 
 }
