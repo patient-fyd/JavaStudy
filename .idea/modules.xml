@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/bitjava.iml" filepath="$PROJECT_DIR$/.idea/bitjava.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bitjavase/email/myemail1/myemail1.iml" filepath="$PROJECT_DIR$/bitjavase/email/myemail1/myemail1.iml" />
     </modules>
   </component>
 </project>
