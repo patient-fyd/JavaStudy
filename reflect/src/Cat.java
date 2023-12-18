@@ -8,10 +8,12 @@ import lombok.NoArgsConstructor;
  * Description:
  */
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
 public class Cat {
     private String name;
     private int age;
 
+    private Cat() {
+        System.out.println("无参构造方法执行了");
+    }
 }

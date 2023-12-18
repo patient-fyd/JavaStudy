@@ -22,15 +22,19 @@ public class Test2Constructor {
     }
 
     @Test
-    public void testGetConstructor() throws NoSuchMethodException {
+    public void testGetConstructor() throws Exception {
         // 1、反射第一步：获取Class对象
         Class c = Cat.class;
         // 2、获取某个构造方法 getConstructor()只能拿public修饰的
         //Constructor constructor = c.getConstructor();
-        Constructor constructor = c.getDeclaredConstructor(String.class, int.class);
+        Constructor constructor = c.getDeclaredConstructor();
         // 3、遍历数组中的每个构造器对象
         System.out.println(constructor.getName() + "----->" +
                 constructor.getParameterCount());
+
+        constructor.setAccessible(true);  // 禁止检查访问权限
+        Cat cat = (Cat) constructor.newInstance();
+        System.out.println(cat);
 
     }
 
